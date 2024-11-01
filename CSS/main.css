@@ -1,0 +1,61 @@
+body {
+    background-color: #ff5757;
+    margin: 0;
+    padding: 0;
+}
+#title {
+    font-family: "Courier New", Courier, monospace;
+    /* cette code est pour mettre le font pour tout les mots dans le titre */
+    font-style: bold;
+    font-size: 28px;
+    /* cette code est pour mettre un taille au titre */
+    text-align: center;
+    /* cette code est pour mettre mon titre au centre du page */
+    margin-top: 20px;
+}
+
+p {
+    font-family: "Courier New", Courier, monospace;
+    font-style: bold;
+    font-size: 14px;
+    /* cette code est pour mettre  */
+    text-align: center;
+    margin-top: 20px;
+}
+/* cette code metais un sidebar a la gauche de mon site web */
+.sidebar {
+    font-family: "Courier New", Courier, monospace;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+#sidebar {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
